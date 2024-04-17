@@ -35,5 +35,5 @@ async def delete_items(item_id: int) -> str:
         if item.id == item_id:
             store_items.pop(i)
             return "Item deleted"
-        raise KeyError("Item not found")
+
     
